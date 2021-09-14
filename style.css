@@ -1,0 +1,105 @@
+/* Giving our navbar some padding and a background color */
+a.navbar-brand {
+  padding: 10px;
+  background: rgb(81, 175, 160);
+}
+
+/* small screen adjustments*/
+@media(max-width:767px){
+  .navbar.bg-light{
+      background-color: rgb(81, 175, 160)!important;    
+  }
+
+  .navbar-collapse{
+      background-color:white;
+  }
+  .navbar{
+      padding:inherit;
+  }
+}
+
+body {
+  width: 100%;
+  min-height:100%;
+  background-color:white;
+  padding: 10px;
+}
+.col-md-12{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+.col-md-4{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+/* content styling*/
+.content {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+.content.bg-white {
+  margin-top: 15px;
+}
+
+/* image styling*/
+.img-thumbnail{
+  padding:10px;
+  border: none;
+}
+
+/* Styling the header, giving it a height, a background color, and some top padding */
+.header {
+  height: 200px;
+  padding-top: 20px;
+  background: White;
+}
+
+/* Styling the paragraph to give it some padding */
+p {
+  padding: 20px;
+}
+
+/* Centering our h1 tag inside our header, giving it a little padding, removing its margin */
+h1 {
+  padding: 20px;
+  margin: 0;
+  color: rgb(81, 175, 160);
+  text-align: left;
+}
+
+#nav-select {
+  visibility: hidden;
+}
+
+/* Centering our images */
+figure {
+  padding: 10px;
+  text-align: center;
+}
+
+/* Adding padding to the table */
+#table-responsive-sm {
+  padding: 20px;
+}
+/* Add media queries */
+@media (max-width: 480px) {
+  .navbar li {
+    padding: 10px;
+  }
+
+  .post {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar ul {
+    visibility: hidden;
+  }
+
+  #nav-select {
+    visibility: visible;
+  }
+}

@@ -35,16 +35,43 @@
       </div>
     </div>
   </nav> 
-  <br>
-  <br>
-  <h1>Summary: Latitude vs. X</h1>
-  <p>This project used four factors to analyze how the weather changes when approaching the equator. The data was pulled from OpenWeatherMap API and Matplotlib was used to create the charts.</p>
-  <article>
-    <a target="_blank" href="Visualizations/Latitude_MaxTemperature_Plot.png">
-      <img src="Visualizations/Latitude_MaxTemperature_Plot.png" alt="Max Temp">
-    </a>
-  <p>The four factors to analyze the weather changes were: maximum temperature, humidity, cloudiness and wind speed. These pages include the charts, correlation of the data and the data pulled from the API.</p>
 
+<!--Home page--> 
+<div class="container content">    
+  <div class="row">
+      <div class="col-md-8">
+          <div class="col-md-12">
+              <h1>Summary: Latitude vs. X </h1>
+              <hr>
+              <div class="thumbnail">
+                  <img class="img-thumbnail float-left" src="Visualizations/Latitude_MaxTemperature_Plot.png " width="50%" alt="temp">
+              </div>
+              <p>This project used four factors to analyze how the weather changes when approaching the equator. The data was pulled from OpenWeatherMap API and Matplotlib was used to create the charts.</p>
+              <p>The four factors to analyze the weather changes were: maximum temperature, humidity, cloudiness and wind speed. These pages include the charts, correlation of the data and the data pulled from the API.</p>
+          </div>
+        </div>
+  <!--right side--> 
+      <div class="col-md-4 divbdy">
+        <div class="col-md-12"></div>
+          <h2>Visualizations</h2>
+          <hr>
+        <div class='row'>
+          <div class="col-3 col-md-6">
+            <a href="maxtemp.html"><img src="Visualizations/Latitude_MaxTemperature_Plot.png" width="100%" alt="Temp"></a>
+          </div>
+          <div class="col-3 col-md-6">
+            <a href="humidity.html"><img src="Visualizations/Latitude_Humidity_Plot.png" width="100%" alt="Humidity"></a>
+          </div>
+          <div class="col-3 col-md-6">
+            <a href="cloudiness.html"><img src="Visualizations/Latitude_Cloudiness_Plot.png" width="100%" alt="Cloudiness"></a>
+          </div>
+          <div class="col-3 col-md-6">
+            <a href="windspeed.html"><img src="Visualizations/Latitude_Wind_Speed_Plot.png" width="100%" alt="Wind Speed"></a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
