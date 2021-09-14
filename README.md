@@ -33,5 +33,22 @@ The website must consist of 7 pages total, including:
   * Is responsive (using media queries). The nav must have similar behavior as the screenshots “Navigation Menu” section (notice the background color change).
 
 # Table of Contents
-  1. License
-  2. Readme
+ 1. Resources
+    1. cities.html
+    2. Cities_Output.csv
+    3. csv_to_html.ipynb
+ 2. Visualizations
+    1. Latitude_Cloudiness_Plot.png
+    2. Latitude_Humidity_Plot.png
+    3. Latitude_MaxTemperature_Plot.png
+    4. Latitude_Wind_Speed_Plot.png
+  3. cloudiness.html
+  4. comparison.html
+  5. data.html
+  6. humidity.html
+  7. index.html
+  8. maxtemp.html
+  9. windspeed.html
+  10. style.css
+  11. License
+  12. Readme
